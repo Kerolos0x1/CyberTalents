@@ -88,4 +88,38 @@ The Password is : orderby1337 To Extract (NumberOne.zip)
 
 $ 7z x NumberOne.zip
 $ cd NumberOne
-$ ls 
+$ ls
+
+There File Called : decodeme1.zip
+
+Let's Decode It : $ zip2john decodeme1.zip
+
+Copy Hash and Put In file called (hash.txt) : $ nano hash.txt
+
+Then Use This To decode : $ john --format=zip hash.txt --wordlist=One
+
+The Password is : infrastructure
+
+$ 7z x decodeme1.zip
+$ cd decodeme1
+$ ls
+
+There Is File Called : (pass) Let's See : $ cat pass
+
+Password is : (dXNlbWVhc3Bhc3N3b3Jk) in Hash Unknown Type
+
+Go To : https://www.tunnelsup.com/hash-analyzer/  Type : base64
+
+Go To : https://www.base64decode.org/  To Decode It : Output : usemeaspassword
+
+$ 7z x decodeme2.zip
+$ cd decodeme2
+$ ls
+
+There Is File Called : flag.txt Let's See : $ cat flag.txt
+
+There Is Flag : synt{f1zcyr_yvahk_101} mmmm... But It Incorrect Let's Decode It 
+
+Go To : https://rot13.com 
+
+The Result Is : flag{s1mple_linux_101}
