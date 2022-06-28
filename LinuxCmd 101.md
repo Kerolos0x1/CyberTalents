@@ -36,3 +36,56 @@ Try This : $ ls -al
 hmmm ! There is An Hidden File Let's See What is inside : $ cat .pass.txt
 
 There is a Password : qwerty1245
+
+Then Extract Him : $ 7z x exec.zip 
+
+Yes ! 
+
+$ cd exec
+$ ls
+
+There is Another ZIP File And Required a Password 
+
+Let's Try This : $ cp - test 
+$ chmod +x test
+$ ./test
+
+There is Password : 998877665544332211
+
+After Extract : $ cd ascii
+
+What! There is a 9 Files Let's Try This To Know What File Have Password : $ file *
+
+f6 Is an ASCII Text 
+
+Let's See : $ cat f6
+
+Password is : rryuiytqpyuiqyofdkhsjhfewojnhfdss
+
+Let's Extract size37.zip By This Password
+
+Go To size37 : $ cd size37
+
+See : $ ls
+
+Then Search for File That Size Equal 37 : $ ls -al
+
+The test5 Is 37 : $ cat test5
+
+Password Is : 62094n902m2x-28mx4t9xy282y49ty9824yt
+
+Let's Extract next.zip By Password 
+
+$ cd next
+
+There Is File Called : (nexttocybertalents) Let's See : $ cat nexttocybertalents
+
+Oh no ! There Is Many Words....emmm Look at The Name Of file The Password Is Next To The (cybertalents) Word 
+
+$ cat nexttocybertalents | grep cybertalents 
+
+The Password is : orderby1337 To Extract (NumberOne.zip)
+
+$ 7z x NumberOne.zip
+$ cd NumberOne
+$ ls 
